@@ -120,7 +120,7 @@ public class ManWolf {
 		if(accepted()){
 			System.out.println("That is a solution");
 		}else{
-			System.out.print("That is not a solution");
+			System.out.println("That is not a solution");
 		}
 	}
 	/**
