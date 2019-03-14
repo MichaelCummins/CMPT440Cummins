@@ -1,3 +1,6 @@
+//Homework 1 assignment by Michael Cummins 3/13/2019
+//Formal Languages and Computability
+//File contains ManWolf class used to construct DFA
 
 public class ManWolf {
 	public static final int q0 = 0;
@@ -116,7 +119,7 @@ public class ManWolf {
 				state = q10;
 			}
 	  }
-		
+		//Check if at goal state
 		if(accepted()){
 			System.out.println("That is a solution");
 		}else{
