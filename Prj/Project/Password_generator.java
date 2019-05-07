@@ -10,6 +10,7 @@ public class Password_generator{
 		
 		System.out.println("Enter a password that meets the following criteria: \n"
 							+ "Must contain a digit\n"
+							+ "Must contain a special character (I.E !@#$)\n"
 							+ "Must contain an uppercase letter\n"
 							+ "Must contain a lowercase letter\n"
 							+ "Must be at least 8 characters long");
